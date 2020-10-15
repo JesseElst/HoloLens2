@@ -5,6 +5,21 @@ Dit concept is ontwikkeld door Jesse van der Elst voor een afstudeeropdracht van
 ## Benodigdheden
 Microsoft heeft verschillende functies geschreven die gebruikt kunnen worden om een HoloLens applicatie te ontwikkelen. Om de functies te gebruiken moet eerst de Library gedownload worden. (https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.4.0/Microsoft.MixedReality.Toolkit.Unity.Foundation.2.4.0.unitypackage)
 
+## Drukbare knop
+
+#### PressableButtonHoloLens2.cs
+Deze functie maakt het mogelijk om een knop te laten werken door directe aanraking. Om de gebruiker feedback te geven is er voor gekozen om een geluid of te spelen wanneer de knop wordt ingedrukt. Dit is mogelijk wanneer wordt ingesteld `Button pressed Runtime Only: Audiosource.Playoneshot`
+
+#### Interactable.cs
+Deze functie zorgt ervoor dat de applicatie kan reageren op het indrukken van de knop. Bij deze applicatie is ervoor gekozen om het 1e scherm te laten verdwijnen en het 2 scherm zichtbaar te laten worden, dit is mogelijk door:
+```c#
+Onclick:
+Runtime only: Scherm1 GameObject.SetActive [ ] // Scherm 1 verdwijnt
+Runtime only: Scherm2 GameObject.SetActive [✓] // Scherm 2 wordt zichtbaar
+
+```
+
+
 ## Scrol object
 
 #### ScrollObjectCollection.cs
