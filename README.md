@@ -12,7 +12,7 @@ Deze functie is nodig om een scroll object te laten functioneren.
 `Scroll Direction: Left and Right` zorgt ervoor dat het alleen mogelijk is om horizontaal te scrollen
 `Type of Velocity: No Velocity snap to item` zorgt ervoor dat de items vastklikken
 
-## Directe manupulate
+## Directe manipulatie
 Om een object te kunnen manupileren door handbewegingen zijn er drie functies nodig die toegevoegd moeten worden aan het desbetreffende object. In dit geval is het een koptelefoon. Om het obect ook te kunnen ronddraaien moet de functie `RotationAxisConstraint.cs`worden toegevoegd.
 
 #### ObjectManupilator.cs
