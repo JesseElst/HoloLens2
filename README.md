@@ -27,14 +27,10 @@ Deze functie is gemaakt om een object te kunnen ronddraaien. Wanneer een object 
 ## Eigenschappen aanwijzen op koptelefoon
 
 #### Tooltip.cs
+Deze functie is nodig om een aanwijzing mogelijk te maken. `Tool Tip Text` is het blokje waar je kan invullen welke eigenschap er zichtbaar moet worden. Verder kan de stijl van het eigenschapblokje aangepast worden. Er kan gekozen worden om een blauwe achtergrond aan het blokje te geven.
 
 #### ToolTipConnector.cs
+Deze functie is bedoeld om aan te geven welk aan welk onderdeel de eigenschap gekoppeld moet worden. Zo moet voor de eigenschap Microfoon `Target: Mic`
 
-#### ToolTipBackgroundMesh.cs
 
-#### ToolTipLineHighlight.cs
-
-#### SimpleLineDataProvider.cs
-
-#### MixedRealityLineRenderer.cs
 
