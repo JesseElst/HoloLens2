@@ -1,6 +1,6 @@
 # HoloLens 2 realisatie voor het zoeken in een Database
 
-Dit concept is ontwikkeld door Jesse van der Elst voor een afstudeeropdracht van ICT Group. Tijdens het afstudeeronderzoek is er onderzocht hoe een interface van een HoloLens 2 eruit kan zien wanneer het gebruikt wordt om een specifiek product te zoeken. In dit bestand staan de verschillende functies die te gebruiken zijn om het bedachte interface te realiseren
+Dit concept is ontwikkeld door Jesse van der Elst voor een afstudeeropdracht van ICT Group. Tijdens het afstudeeronderzoek is er onderzocht hoe een interface van een HoloLens 2 eruit kan zien wanneer het gebruikt wordt om een specifiek product te zoeken. In dit bestand staan de verschillende functies die te gebruiken zijn om het bedachte interface te realiseren Zie realisatie: (https://youtu.be/aMHutlY10zA)
 
 ## Benodigdheden
 Microsoft heeft verschillende functies geschreven die gebruikt kunnen worden om een HoloLens applicatie te ontwikkelen. Om de functies te gebruiken moet eerst de Library gedownload worden. (https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.4.0/Microsoft.MixedReality.Toolkit.Unity.Foundation.2.4.0.unitypackage)
